@@ -495,10 +495,18 @@ h6,
   font-family: 'Droid Sans', sans-serif;
   font-size: 20px;
 }
-#features7-0 .card-subtitle {
-  color: #bcbcbc;
+#msg-box7-3 .mbr-section-title,
+#msg-box7-3 .lead p {
+  color: #fff;
 }
-#features7-0 .iconbox {
-  background-color: #c0a375;
-  border-color: #c0a375;
+#msg-box7-3 H3 {
+  text-align: right;
+}
+#msg-box6-4 .mbr-section-title,
+#msg-box6-4 .lead p {
+  color: #fff;
+}
+#msg-box7-5 .mbr-section-title,
+#msg-box7-5 .lead p {
+  color: #fff;
 }
