@@ -1,7 +1,7 @@
 {
   "settings": {
     "currentPage": "index.html",
-    "name": "My Site",
+    "name": "likemoney",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -23,7 +23,9 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 6,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -147,6 +149,13 @@
         {
           "_name": "header1",
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "20px"
+            }
+          },
           "_anchor": "header1-1",
           "_params": {
             "parallax": true,
@@ -169,14 +178,7 @@
           },
           "title": "Облачное решение <br>для парков",
           "text": "<br>Контроль доступа.<br>Уникальные проверенные отчеты.<br>Проведение мероприятий.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Регистрация</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Войти</a>",
-          "_styles": {
-            ".btn": {
-              "font-family": "'Droid Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
-              "font-size": "20px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://app.likemoney.ru/registration\" data-toolbar=\"-mbrBtnMove\">Регистрация</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"http://app.likemoney.ru\" data-toolbar=\"-mbrBtnMove\">Войти</a>"
         },
         {
           "_name": "footer1",
@@ -212,7 +214,7 @@
           "_anchor": "msg-box7-3",
           "_params": {
             "imageSize": 50,
-            "paddingTop": "6",
+            "paddingTop": "4",
             "paddingBottom": "6",
             "parallax": true,
             "bgImageRadio": false,
@@ -274,20 +276,20 @@
             "paddingTop": "3",
             "paddingBottom": "6",
             "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
             "bgColor": "#7e9b9f",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.8",
             "overlayColor": "#000",
             "inverse": true,
             "showTitle": true,
-            "showText": true,
+            "showText": false,
             "showButtons": false
           },
           "media": {
@@ -309,7 +311,7 @@
             }
           },
           "title": "Уникальный конттроль доступа для веревочных парков",
-          "text": "This is an intro with beautiful background video and image on the left side.",
+          "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -405,7 +407,7 @@
             }
           },
           "text1": "<strong>Адрес</strong><br>117810, г. Москва,  Профсоюзная  ул., д. 84/32, стр. 1.<br>",
-          "text2": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Контакты</b></span></font><br><br>\nEmail: support@likemoney.ru<br>\nТелефон: +7 (950) 801 97 90<br><br>",
+          "text2": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Контакты</b></span></font><br>\nEmail: support@likemoney.ru<br>\nТелефон: +7 (950) 801 97 90<br><br>",
           "text3": ""
         }
       ]
