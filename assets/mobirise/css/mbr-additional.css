@@ -593,3 +593,32 @@ h6,
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
 }
+#msg-box3-m .mbr-section-title,
+#msg-box3-m p {
+  color: #000;
+}
+#features4-j .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-j .iconbox {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+#features4-k .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-k .iconbox {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+#features4-l .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-l .iconbox {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+#msg-box3-n .mbr-section-title,
+#msg-box3-n p {
+  color: #000;
+}
